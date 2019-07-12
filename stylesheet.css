@@ -1,0 +1,44 @@
+body {
+
+
+  animation: colorchange 2s;
+  -webkit-animation: colorchange 2s;
+
+@keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: green;}
+  100% {background: red;}
+}
+
+@-webkit-keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: green;}
+  100% {background: red;}
+}https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Fmobile%2F000%2F005%2F608%2Fnyan-cat-01-625x450.jpg&imgrefurl=https%3A%2F%2Fknowyourmeme.com%2Fmemes%2Fnyan-cat&docid=5BT212XV_F2KSM&tbnid=gr7pMP7PVQDBQM%3A&vet=10ahUKEwiT9YKqkKjjAhWGsZ4KHfhqBUcQMwhUKAAwAA..i&w=800&h=450&client=firefox-b-e&bih=786&biw=1600&q=nyan%20cat%20picture&ved=0ahUKEwiT9YKqkKjjAhWGsZ4KHfhqBUcQMwhUKAAwAA&iact=mrc&uact=8
+}
+
+.title{
+  color: #4BF542;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 300px;
+}
+
+.paragraph{
+  color: #C53A83
+font-family: 'Lobster', cursive;
+text-align: center;
+
+}
+
+.img_nyancat{
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
